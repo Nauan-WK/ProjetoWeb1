@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #003366;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.telefone{
+    margin-left: 40px;
+    color: white;
+    font-size: 16px;
+    display: inline;
+}
+.comercial{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    margin-left: 100px;
+
+}
+.whatsapp{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 0;
+    background-color: #2ba531;
+    padding: 12px 12px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+.whatsapp:hover{
+    background-color: rgb(25, 142, 25);
+}
+.online{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 0;
+    background-color: #00b29c;
+    padding: 12px 12px;
+}
+.online:hover{
+    background-color: #049281;
+}
+.logo{
+    height: 100px;
+    display: flex;
+}
+.imagemlogo{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 80px;
+    height: 60px;
+}
+
+.listalogo{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 100px;
+}
+.itenslista{
+    color: black;
+    margin-top: 40px;
+    padding-right: 40px;
+    height: min-content;
+}
+.topicos{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    padding: 8px;
+}
+.topicos:hover{
+    background-color: #003366;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.imagemdefundo{
+    width: 100%;
+}
+.conteudo{
+    height: 420px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.bemvindo{
+    width: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #72120B;
+    margin-bottom: 15px;
+}
+.bemvindo::first-line{
+    color: #003366;
+}
+.textoconteudo{
+    width: 580px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: gray;
+    line-height: 25px;
+}
+.saibamais{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #72120B;
+    width: 130px;
+    padding: 20px 30px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+}
+.saibamais:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.conteudo img{
+    height: 300px;
+    width: 500px;
+    border: 0 solid;
+    border-radius: 20px;
+    position: relative;
+    left: 650px;
+    bottom: 350px
+}
+.sites{
+    background-color: #003366;
+    color: white;
+    height: 700px;
+}
+.caixas{
+    display: flex;
+    justify-content: space-around;
+}
+.caixas-link{
+    width: 300px;
+    height: 480px;
+    border: 2px solid rgba(255, 255, 255, 0.117);
+    border-radius: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.caixas-link:hover{
+    background-color: #264f78 ;
+}
+.conteudocaixa{
+    width: 280px;
+    height: 460px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.conteudocaixa img{
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#terceiraimagem{
+    width: 250px;
+}
+.conteudocaixa h1{
+    text-align: center;
+    width: max-content;
+    font-size: 23px;
+    margin: 30px 5px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#primeiroh1{    
+    margin-left: 30px;
+}
+.conteudocaixa p{
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.conteudocaixa h2{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    background-color: #72120B;
+    margin: 20px 30px;
+    padding: 20px 28px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.conteudocaixa h2:hover{
+    transform: scale(1.1);
+}
+.contato{
+    height: 700px;
+    text-align: center;
+}
+#firstline{
+    margin-top: 30px;
+    border-top: 3px solid #72120B;
+}
+#firstline::first-line{
+    font-size: 45px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 500;
+    color: #003366;
+}
+.form{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+}
+.userinfo{
+    position: absolute;
+    text-align: left;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+#name{
+    width: 420px;
+    background-color: #eee;
+    font-weight: 300;
+    font-family:  Calibri, sans-serif;
+    font-size: 18px;
+    border: 0px solid;
+    border-radius: 7px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+#mail{
+    width: 420px;
+    background-color: #eee;
+    font-weight: 300;
+    font-family:  Calibri, sans-serif;
+    font-size: 18px;
+    border: 0px solid;
+    border-radius: 7px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+#phone{
+    width: 420px;
+    background-color: #eee;
+    font-weight: 300;
+    font-family:  Calibri, sans-serif;
+    font-size: 18px;
+    border: 0px solid;
+    border-radius: 7px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+#mensagem{
+    position: relative;
+    right: -425px;
+    top: -215px;
+    width: 400px;
+    background-color: #eee;
+    font-weight: 300;
+    font-family:  Calibri, sans-serif;
+    font-size: 20px;
+    border: 0px solid;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    padding-bottom: 165px;
+    outline: none;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+#name:focus{
+    border-left: #72120B 2px solid;
+}
+#mail:focus{
+    border-left: #72120B 2px solid;
+}
+#phone:focus{
+    border-left: #72120B 2px solid;
+}
+#mensagem:focus{
+    border-left: #72120B 2px solid;
+}
+.submit{
+    text-decoration: none;
+    color: white;
+    background: #72120B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 23px 386px;
+    position: absolute;
+    text-align: center;
+    margin-left: -400px;
+    border-radius: 7px;
+    transition: 0.4s ease-in-out;
+}
+.submit:hover{
+    background-color: #500a06;
+}
+
+
+
+
+
+
